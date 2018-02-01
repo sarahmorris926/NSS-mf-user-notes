@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/sarahmorris926/NSS-mf-user-notes#readme",
   "dependencies": {
+    "firebase": "^4.9.0",
     "grunt": "^1.0.1",
     "grunt-browserify": "^5.2.0",
     "grunt-contrib-jshint": "^1.1.0",

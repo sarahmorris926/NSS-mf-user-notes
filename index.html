@@ -6,17 +6,25 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
 </head>
-<body>
-  
+<body ng-app="UserNotes">
+
+  <div ng-include=" 'partials/nav.html' "></div>
+
+  <div ng-view></div>
+
+  <script type="text/javascript" src="node_modules/angular/angular.min.js"></script>
+  <script type="text/javascript" src="node_modules/angular-route/angular-route.min.js"></script>
+  <script src="node_modules/firebase/firebase.js"></script>
 
   <script src="app/app.js"></script>
+  <script src="app/values/fb-creds.js"></script>
 
-  <script src="app/factories/"></script>
-  <script src="app/factories/"></script>
+  <script src="app/factories/AuthFactory.js"></script>
 
-  <script src="app/controllers/"></script>
-  <script src="app/controllers/"></script>
-
+  <script src="app/controllers/NavCtrl.js"></script>
+  <script src="app/controllers/HomeCtrl.js"></script>
+  <script src="app/controllers/LoginCtrl.js"></script>
+  <script src="app/controllers/RegisterCtrl.js"></script>
 
 
 </body>

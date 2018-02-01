@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module("NotesApp", ["ngRoute"]).config($routeProvider => {
+angular.module("UserNotes", ["ngRoute"]).config($routeProvider => {
   $routeProvider
   .when("/", {
     templateUrl: "",
